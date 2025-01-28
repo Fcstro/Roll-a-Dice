@@ -4,7 +4,7 @@
   "scripts": {
     "build": "rimraf dist && parcel build --public-url https://Fcstro.github.io/Roll-a-Dice/ scr/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel serve scr/index.html --port 1111"
+    "dev": "rimraf dist && parcel serve scr/index.html --port 1111"
   },
   "author": "Fcstro",
   "license": "ISC",
