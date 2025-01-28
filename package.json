@@ -1,16 +1,16 @@
 {
   "name": "roll-a-dice",
   "version": "1.0.0",
-  "main": "script.js",
   "scripts": {
+    "build": "rimraf dist && parcel build --public-url https://Fcstro.github.io/Roll-a-Dice/ scr/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel serve scr/index.html"
+    "dev": "parcel serve scr/index.html --port 1111"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Fcstro",
   "license": "ISC",
-  "description": "",
+  "description": " A simple dice rolling site",
   "dependencies": {
-    "parcel": "^2.13.3"
+    "parcel": "^2.13.3",
+    "rimraf": "^6.0.1"
   }
 }
