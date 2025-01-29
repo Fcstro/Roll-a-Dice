@@ -8,7 +8,7 @@
   },
   "author": "Fcstro",
   "license": "ISC",
-  "description": " A simple dice rolling site",
+  "description": " A simple 3D dice rolling site",
   "dependencies": {
     "parcel": "^2.13.3",
     "rimraf": "^6.0.1"
